@@ -110508,5 +110508,92 @@
                 12
             ]
         ]
+    },
+    {
+        "Id": 26014,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "DefaultOrder": 16014,
+        "PathName": "Tomoe_ChinaDress",
+        "DevName": "Tomoe_ChinaDress",
+        "Name": "トモエ（チャイナドレス）",
+        "School": "Redwinter",
+        "Club": "RedwinterOffice",
+        "StarGrade": 2,
+        "SquadType": "Main",
+        "TacticRole": "Supporter",
+        "Summons": [],
+        "Position": "Back",
+        "BulletType": "Mystic",
+        "ArmorType": "HeavyArmor",
+        "StreetBattleAdaptation": 2,
+        "OutdoorBattleAdaptation": 4,
+        "IndoorBattleAdaptation": 2,
+        "WeaponType": "HG",
+        "WeaponImg": "weapon_icon_tomoe_qipao",
+        "Cover": true,
+        "Equipment": [
+            "PinkSneakers",
+            "ServalMetalBadge",
+            "BluetoothNecklace"
+        ],
+        "CollectionBG": "BG_Redwinter_Collection",
+        "FamilyName": "佐城",
+        "PersonalName": "トモエ",
+        "SchoolYear": "2年生",
+        "CharacterAge": "16歳",
+        "Birthday": "9月21日",
+        "FamilyNameRuby": "さしろ",
+        "PersonalNameRuby": "",
+        "CharacterSSRNew": "お給料分、きっちり働きますね～先生",
+        "ProfileIntroduction": "レッドウィンター事務局所属、事務作業をテキパキとこなす事務員。\n\n温和な性格と大人びた口調で周囲に落ち着きを与える存在。チャイナドレス姿でもその仕事ぶりは変わらず、落ち着いた雰囲気で他の生徒をサポートする。",
+        "Hobby": "家計簿をつけること",
+        "CharacterVoice": "上田麗奈",
+        "BirthDay": "9/21",
+        "Illustrator": "Mihayashi",
+        "Designer": "Mihayashi",
+        "CharHeightMetric": "158cm",
+        "CharHeightImperial": "5'2\"",
+        "StabilityPoint": 1210,
+        "AttackPower1": 140,
+        "AttackPower100": 1400,
+        "MaxHP1": 1500,
+        "MaxHP100": 15000,
+        "DefensePower1": 100,
+        "DefensePower100": 1000,
+        "HealPower1": 1300,
+        "HealPower100": 4000,
+        "DodgePoint": 200,
+        "AccuracyPoint": 700,
+        "CriticalPoint": 200,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 6,
+        "AmmoCost": 1,
+        "Range": 650,
+        "RegenCost": 700,
+        "Skills": [],
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            0,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": "",
+        "FurnitureInteraction": [
+            [],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [],
+        "IsLimited": 1
     }
 ]
