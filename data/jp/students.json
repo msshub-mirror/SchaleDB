@@ -110510,6 +110510,571 @@
         ]
     },
     {
+        "Id": 99999,
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "DefaultOrder": 500,
+        "PathName": "Dummy",
+        "DevName": "CHdummy",
+        "Name": "テストデータ1",
+        "School": "ETC",
+        "Club": "EmptyClub",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Front",
+        "BulletType": "Explosion",
+        "ArmorType": "LightArmor",
+        "StreetBattleAdaptation": 4,
+        "OutdoorBattleAdaptation": 4,
+        "IndoorBattleAdaptation": 4,
+        "WeaponType": "AR",
+        "WeaponImg": "weapon_icon_10000",
+        "Cover": true,
+        "Equipment": [
+            "Shoes",
+            "Badge",
+            "Necklace"
+        ],
+        "CollectionBG": "BG_Gehenna_Collection",
+        "FamilyName": "テスト",
+        "PersonalName": "データ1",
+        "SchoolYear": "3年生",
+        "CharacterAge": "17歳",
+        "Birthday": "1月1日",
+        "FamilyNameRuby": "テスト",
+        "PersonalNameRuby": "",
+        "CharacterSSRNew": "テスト獲得文章",
+        "ProfileIntroduction": "テスト説明文",
+        "Hobby": "テスト趣味",
+        "CharacterVoice": "テストCV",
+        "BirthDay": "1/1",
+        "Illustrator": "-",
+        "Designer": "-",
+        "CharHeightMetric": "160cm",
+        "CharHeightImperial": "5'2\"",
+        "StabilityPoint": 1210,
+        "AttackPower1": 140,
+        "AttackPower100": 1400,
+        "MaxHP1": 1500,
+        "MaxHP100": 15000,
+        "DefensePower1": 100,
+        "DefensePower100": 1000,
+        "HealPower1": 1300,
+        "HealPower100": 4000,
+        "DodgePoint": 200,
+        "AccuracyPoint": 700,
+        "CriticalPoint": 200,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 6,
+        "AmmoCost": 1,
+        "Range": 650,
+        "RegenCost": 700,
+        "Skills": [
+            {
+                "SkillType": "autoattack",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Frames": {
+                            "AttackEnterDuration": 45,
+                            "AttackStartDuration": 18,
+                            "AttackEndDuration": 16,
+                            "AttackBurstRoundOverDelay": 50,
+                            "AttackIngDuration": 39,
+                            "AttackReloadDuration": 62
+                        },
+                        "CriticalCheck": "Check"
+                    }
+                ]
+            },
+            {
+                "SkillType": "ex",
+                "Name": "テストEXスキル",
+                "Desc": "円形範囲内の味方に対して、<b:CriticalDamage>率を<?1>、<b:CriticalChance>を<?2>、<b:MoveSpeed>を30.8%増加させ、通常攻撃の<d:Range>を38.5%減少（30秒間）",
+                "Parameters": [
+                    [
+                        "13.9%",
+                        "14.9%",
+                        "17%",
+                        "18%",
+                        "20.1%"
+                    ],
+                    [
+                        "13.9%",
+                        "14.9%",
+                        "17%",
+                        "18%",
+                        "20.1%"
+                    ]
+                ],
+                "Cost": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "Duration": 190,
+                "Range": 400,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 400
+                    }
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffAlly",
+                        "Value": [
+                            [
+                                1390,
+                                1494,
+                                1702,
+                                1806,
+                                2014
+                            ]
+                        ],
+                        "Stat": "CriticalDamageRate_Coefficient",
+                        "Channel": 111
+                    },
+                    {
+                        "Type": "BuffAlly",
+                        "Value": [
+                            [
+                                1390,
+                                1494,
+                                1702,
+                                1806,
+                                2014
+                            ]
+                        ],
+                        "Stat": "CriticalPoint_Coefficient",
+                        "Channel": 109
+                    },
+                    {
+                        "Type": "BuffAlly",
+                        "Value": [
+                            [
+                                -3859,
+                                -3859,
+                                -3859,
+                                -3859,
+                                -3859
+                            ]
+                        ],
+                        "Stat": "Range_Coefficient",
+                        "Channel": 618
+                    },
+                    {
+                        "Type": "BuffAlly",
+                        "Value": [
+                            [
+                                3087,
+                                3087,
+                                3087,
+                                3087,
+                                3087
+                            ]
+                        ],
+                        "Stat": "MoveSpeed_Coefficient",
+                        "Channel": 112
+                    }
+                ]
+            },
+            {
+                "SkillType": "normal",
+                "Name": "テストノーマルスキル",
+                "Desc": "30秒毎に、敵1人に対して攻撃力の<?1>分のダメージ",
+                "Parameters": [
+                    [
+                        "235%",
+                        "247%",
+                        "258%",
+                        "305%",
+                        "317%",
+                        "329%",
+                        "376%",
+                        "388%",
+                        "400%",
+                        "447%"
+                    ]
+                ],
+                "Duration": 155,
+                "Range": 950,
+                "Icon": "COMMON_SKILLICON_TARGET",
+                "Effects": [
+                    {
+                        "Type": "DMGSingle",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            23533,
+                            24711,
+                            25889,
+                            30595,
+                            31768,
+                            32946,
+                            37652,
+                            38830,
+                            40008,
+                            44709
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "passive",
+                "Name": "テストパッシブスキル",
+                "Desc": "<b:ATK>を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "AttackPower_Coefficient",
+                        "Scale": [
+                            1400,
+                            1470,
+                            1540,
+                            1820,
+                            1890,
+                            1960,
+                            2240,
+                            2310,
+                            2380,
+                            2660
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "weaponpassive",
+                "Name": "テストパッシブスキル+",
+                "Desc": "<b:ATK>を<?1>増加/\nさらに<b:ATK>を<?2>増加",
+                "Parameters": [
+                    [
+                        "312",
+                        "328",
+                        "344",
+                        "406",
+                        "422",
+                        "437",
+                        "500",
+                        "515",
+                        "531",
+                        "593"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "BuffSelf",
+                        "Stat": "AttackPower_Base",
+                        "Scale": [
+                            312,
+                            328,
+                            344,
+                            406,
+                            422,
+                            437,
+                            500,
+                            515,
+                            531,
+                            593
+                        ]
+                    }
+                ]
+            },
+            {
+                "SkillType": "sub",
+                "Name": "テストサブスキル",
+                "Desc": "攻撃時、<b:Shield>効果を持っている敵に対して攻撃力の<?1>分の追加ダメージ",
+                "Parameters": [
+                    [
+                        "57.1%",
+                        "59.9%",
+                        "62.8%",
+                        "74.2%",
+                        "77.1%",
+                        "79.9%",
+                        "91.4%",
+                        "94.2%",
+                        "97.1%",
+                        "108%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_EXTRADAMAGE",
+                "Effects": [
+                    {
+                        "Type": "DMGEcho",
+                        "CriticalCheck": "Check",
+                        "Scale": [
+                            5712,
+                            5998,
+                            6284,
+                            7426,
+                            7712,
+                            7997,
+                            9140,
+                            9425,
+                            9711,
+                            10853
+                        ]
+                    }
+                ]
+            }
+        ],
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                47
+            ],
+            [
+                7,
+                56
+            ],
+            [
+                2,
+                10
+            ],
+            [
+                3,
+                15
+            ],
+            [
+                4,
+                24
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            5,
+            5,
+            5
+        ],
+        "MemoryLobbyBGM": "Constant Moderato",
+        "FurnitureInteraction": [
+            [
+                [
+                    6100,
+                    0
+                ]
+            ],
+            [
+                [
+                    6100,
+                    0
+                ]
+            ],
+            [
+                [
+                    6100,
+                    0
+                ]
+            ]
+        ],
+        "FavorItemTags": [
+            "BA",
+            "aT",
+            "aY"
+        ],
+        "FavorItemUniqueTags": [
+            "cL",
+            "do"
+        ],
+        "IsLimited": 0,
+        "Weapon": {
+            "Name": "テスト固有武器",
+            "Desc": "テスト説明文1\n\nテスト説明文2",
+            "AdaptationType": "Street",
+            "AdaptationValue": 2,
+            "AttackPower1": 92,
+            "AttackPower100": 923,
+            "MaxHP1": 429,
+            "MaxHP100": 4289,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3010,
+                180
+            ],
+            [
+                3011,
+                3010,
+                181,
+                200
+            ],
+            [
+                3012,
+                3011,
+                182,
+                201
+            ],
+            [
+                3013,
+                3012,
+                183,
+                202
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                16
+            ],
+            [
+                12,
+                18,
+                17,
+                30
+            ],
+            [
+                12,
+                18,
+                13,
+                26
+            ],
+            [
+                8,
+                18,
+                10,
+                20
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4010
+            ],
+            [
+                4010
+            ],
+            [
+                4011,
+                4010,
+                180
+            ],
+            [
+                4011,
+                181,
+                200
+            ],
+            [
+                4012,
+                4011,
+                181,
+                200
+            ],
+            [
+                4012,
+                182,
+                201
+            ],
+            [
+                4013,
+                4012,
+                183,
+                202
+            ],
+            [
+                4013,
+                183,
+                202
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                7
+            ],
+            [
+                8,
+                5,
+                12
+            ],
+            [
+                5,
+                12,
+                12,
+                18
+            ],
+            [
+                8,
+                6,
+                18
+            ],
+            [
+                8,
+                12,
+                5,
+                8
+            ],
+            [
+                12,
+                10,
+                14
+            ]
+        ]
+    },
+    {
         "Id": 20038,
         "IsReleased": [
             true,
