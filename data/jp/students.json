@@ -110510,15 +110510,15 @@
         ]
     },
     {
-        "Id": 26014,
+        "Id": 20038,
         "IsReleased": [
             true,
             true,
             true
         ],
-        "DefaultOrder": 16014,
+        "DefaultOrder": 194,
         "PathName": "Tomoe_ChinaDress",
-        "DevName": "Tomoe_ChinaDress",
+        "DevName": "CH0271",
         "Name": "トモエ（チーパオ）",
         "School": "Redwinter",
         "Club": "RedwinterSecretary",
@@ -110536,7 +110536,7 @@
         "WeaponImg": "weapon_icon_16007",
         "Cover": true,
         "Equipment": [
-            "Sneakers",
+            "Shoes",
             "Badge",
             "Necklace"
         ],
